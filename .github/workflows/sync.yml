@@ -20,3 +20,9 @@ jobs:
           proc: 20
         env:
           ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
+          quay-user: ${{ secrets.quay-user }}
+          quay-user-pwd: ${{ secrets.quay-user-pwd }}
+          ali-user: ${{ secrets.ali-user }}
+          ali-user-pwd: ${{ secrets.ali-user-pwd }}
+          hub-user: ${{ secrets.hub-user }}
+          hub-user-pwd: ${{ secrets.hub-user-pwd }}
