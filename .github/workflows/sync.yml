@@ -22,7 +22,7 @@ jobs:
           ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
           quay-user: ${{ secrets.quay-user }}
           quay-user-pwd: ${{ secrets.quay-user-pwd }}
-          ali-user: ${{ secrets.ali-user }}
-          ali-user-pwd: ${{ secrets.ali-user-pwd }}
-          hub-user: ${{ secrets.hub-user }}
-          hub-user-pwd: ${{ secrets.hub-user-pwd }}
+          ali-user: ${{ secrets.ALI_USER }}
+          ali-user-pwd: ${{ secrets.ALI_USER_PWD }}
+          hub-user: ${{ secrets.HUB_USER }}
+          hub-user-pwd: ${{ secrets.HUB_USER_PWD }}
