@@ -1,1 +1,10 @@
-
+quay.io: #支持 "registry" 和 "registry/namespace"（v1.0.3之后的版本） 的形式，image-syncer 会自动为镜像同步规则中的每个源/目标 url 查找认证信息，并且使用对应认证信息进行进行访问，如果匹配到了多个，用“最长匹配”的那个作为最终结果
+  username: ${quay-user}
+  password: ${quay-user-pwd}
+  insecure: true # 可选，（v1.0.1 之后支持）registry是否是http服务，如果是，insecure 字段需要为 true，默认是 false
+registry.cn-hangzhou.aliyuncs.com/zy-001:
+  username: ${ali-user} # 可选，（v1.3.1 之后支持）value 使用 "${env}" 或者 "$env" 形式可以引用环境变量
+  password: ${ali-user-pwd} # 可选，（v1.3.1 之后支持）value 使用 "${env}" 或者 "$env" 类型的字符串可以引用环境变量
+docker.io:
+  username: ${hub-user}
+  password: ${hub-user-pwd}
