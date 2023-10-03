@@ -1,1 +1,26 @@
+ghcr.io/kube-vip/kube-vip-cloud-provider:
+    - docker.io/xlh001/kube-vip-cloud-provider
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/kube-vip-cloud-provider
+ghcr.io/kube-vip/kube-vip:
+    - docker.io/xlh001/kube-vip
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/kube-vip
+quay.io/argoproj/argocd:
+    - docker.io/xlh001/argocd
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/argocd
+quay.io/tigera/operator:
+    - docker.io/xlh001/operator
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/operator
+quay.io/jetstack/cert-manager-controller:
+    - docker.io/xlh001/cert-manager-controller
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/cert-manager-controller
+quay.io/jetstack/cert-manager-ctl:
+    - docker.io/xlh001/cert-manager-ctl
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/cert-manager-ctl
+ghcr.io/dexidp/dex:
+    - docker.io/xlh001/dex
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/dex
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:
+    - docker.io/xlh001/nfs-subdir-external-provisioner
+	  - registry.cn-hangzhou.aliyuncs.com/zy-001/nfs-subdir-external-provisioner
+    
 
